@@ -1,0 +1,170 @@
+body 
+{
+  font-size: 16px;
+  color: #fff;
+  background-color:linen;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+  border-radius: 0;
+  border: 0;
+  background-color: #052550;
+  
+}
+
+.navbar-brand h1
+{
+  font-family: 'Capriola', sans-serif;
+  color: #f5f5dc;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  margin-left:20px;
+  
+}
+.navbar-brand a:hover {
+  text-decoration: none ;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: rgb(238, 199, 163);
+
+} 
+#nav-list a span {
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #684d13 ;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -25px
+}
+#collapsable-nav a{
+  font-size: 1.2em
+}
+
+#section_1 {
+    color: #2e2e47;
+    font-size: 50px;
+    font-family:'Lora',sans-serif ;
+    text-align: center;
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+
+}
+hr{
+  width: 190px;
+  height: 3px;
+  background-color:  rgb(77, 76, 76) ;
+  margin-top: -5px;
+}
+#section_2{
+    background-color:linen;
+   
+    display:flex;
+    font-size:40px;
+    color: rgb(51, 51, 51);
+
+}
+#text{
+    padding:35px;
+}
+#image{
+    padding:35px;
+}
+
+#section_3{
+   
+    background-color:#d3dbc6;
+    display:flex;
+    
+    
+}
+#first_photo{
+padding:50px;
+
+}
+#chef_text{
+    padding:50px;
+    text-align:center;
+    
+}
+#second_photo{
+    padding:50px;
+   
+}
+#third_photo{
+    padding:50px;
+    
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address, #contacts {
+  line-height: 2;
+  
+}
+#hours > span, #address > span, #contacts > span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#address .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+#address .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+.glyphicon-star {
+  font-size: 20px;
+  color: #e67e22;
+}
+#rating{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#rating a:hover{
+  text-decoration: none;
+}
+.text-center{
+  color: #0a94be;
+  font-weight: bold;
+}

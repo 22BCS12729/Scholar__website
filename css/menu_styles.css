@@ -1,0 +1,195 @@
+body 
+{
+  font-size: 16px;
+  color: #fff;
+  background-color:#f3f8fe;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+  border-radius: 0;
+  border: 0;
+  background-color: #052550;
+  
+}
+
+.navbar-brand h1
+{
+  font-family: 'Capriola', sans-serif;
+  color: #f5f5dc;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  margin-left:20px;
+  
+}
+.navbar-brand a:hover {
+  text-decoration: none ;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: rgb(233, 208, 185);
+
+} 
+#nav-list a span {
+  font-size: 1em;
+  margin-right: 5px;
+  
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #f5f5dc ;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -25px
+}
+#collapsable-nav a{
+  font-size: 1.2em
+}
+
+
+#menu-tile, #specials-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin: 15px auto 15px;
+  position: relative;
+  border: 2px solid #684d13;
+  overflow:hidden;
+
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 10px 1px rgba(97, 96, 96, 0.8);
+}
+
+#menu-tile{
+  background: url(../images/menu-tile.jpg) no-repeat;
+  background-position: center;
+}
+#specials-tile{
+  background:url(../images/specials-tile.jpg) no-repeat;
+  background-position: center;
+}
+#map-tile{
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color:beige;
+  opacity: 0.8;
+
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+#address .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+#address .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address, #contacts {
+  line-height: 2;
+}
+#hours > span, #address > span, #contacts > span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#hours a{
+  text-decoration: none;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+.glyphicon-star {
+  font-size: 20px;
+  color: #e67e22;
+}
+#rating{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#rating a:hover{
+  text-decoration: none;
+}
+.text-center{
+  color: #0a94be;
+  font-weight: bold;
+}
+#menu-categories-title{
+    color: #000;
+    font-family:'Lora', sans-serif ;
+    text-shadow:1px 1px 1px rgb(170, 169, 169) ;
+    margin-bottom: 50px;
+    font-size: 45px;
+  }
+  .category-tile{
+    position: relative;
+    border: 2px solid #684d13;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    margin: 15px auto 50px;
+  
+  }
+  .category-tile span{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      background-color: #000;
+      text-align: center;
+      color: beige;
+      text-transform: uppercase;
+      opacity: 0.8;
+      font-size: 1.2em;
+  }
+  .category-tile:hover{
+      box-shadow: 0 1px 5px 1px rgba(97, 96, 96, 0.8); ;
+  }
+  hr{
+    width: 220px;
+    height: 3px;
+    background-color:#e44807;
+    margin-top: -30px;
+  }
+  #chef-logo{
+      text-align: center;
+      margin-bottom: 15px;
+  }
+ 

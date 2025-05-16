@@ -1,0 +1,232 @@
+body 
+{
+  font-size: 16px;
+  color: #fff;
+  background-color:rgb(192,194,201);
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+  border-radius: 0;
+  border: 0;
+  background-color: #052550;
+  
+}
+
+.navbar-brand h1
+{
+  font-family: 'Capriola', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  margin-left:20px;
+  
+}
+.navbar-brand a:hover {
+  text-decoration: none ;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: rgb(255, 255, 255);
+
+} 
+#nav-list a span {
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -25px
+}
+#collapsable-nav a{
+  font-size: 1.2em
+}
+
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family:'Lora', sans-serif;
+  text-shadow:2px 2px 2px #222 ;
+  color: white;
+
+
+}
+hr{
+  width: 190px;
+  height: 3px;
+  background-color:  rgb(77, 76, 76) ;
+}
+.centered-bottom{
+  position:absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.reservation_content{
+  text-align: center;
+  color: rgb(124, 124, 124);
+  font-weight: bold;
+  font-size: 12px;
+  
+  
+
+}
+.box{
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address, #contacts {
+  line-height: 2;
+  
+}
+#hours > span, #address > span, #contacts > span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+.glyphicon-star {
+  font-size: 20px;
+  color: #e67e22;
+}
+#rating{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#rating a:hover{
+  text-decoration: none;
+}
+.text-center{
+  color: #0a94be;
+  font-weight: bold;
+}
+
+
+
+.big_head{ font-size: 40px; color:#d66f0e;
+           font-family:'Times New Roman',cursive;
+           text-align:center;
+         } 
+      
+.tiny_head{  font-size: 22px; color:rgb(77, 76, 76) ;
+             font-family:'Times New Roman';
+             text-align:center;
+             text-decoration: none;
+          }
+          hr{
+            width: 190px;
+            height: 3px;
+            margin-top: -5px;
+            background-color:  rgb(77, 76, 76) ;
+          }
+          
+ .get_review{ font-size: 22px; color: rgb(92, 91, 91);
+             font-family:'Advent Pro';
+             
+            }
+
+.get_review1{ font-size: 22px; color: rgb(92, 91, 91);
+              font-family:'Advent Pro' font-weight:normal;
+              
+}
+
+.get_review2{ font-size: 20px; color: rgb(92, 91, 91);
+             font-family:'Advent Pro';
+              
+}
+
+  .arrange{
+          text-align: center;
+          
+  }
+
+.rate {
+        
+        height: 46px;
+        padding: 0 10px;
+      
+       
+   
+        
+      }
+.rate:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+      }
+.rate:not(:checked) > label {
+        
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ccc;
+     }
+
+.rate:not(:checked) > label:before {
+        content: '★ ';
+     }
+.rate > input:checked ~ label {
+        color: #ffc700;    
+     }
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+        color: #deb217;  
+     }
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+
+    .submit{
+      background-color:rgb(6, 179, 6);
+      border-radius: 30px;
+      height: 40px;
+      width: 150px;
+      color: black;
+    }
+    .reset{
+      background-color:rgb(230, 52, 52);
+      border-radius: 30px;
+      height: 40px;
+      width: 150px;
+      color: black;
+    }  
+       
